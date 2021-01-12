@@ -1,0 +1,10 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "cleanup": "pnpm recursive exec -- rm -rf node_modules/ && rm -f pnpm-lock.yaml"
+  },
+  "dependencies": {
+    "chalk": "4.1.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "pkg1",
+    "version": "0.0.6",
+    "description": "Skeleton for visual testing backstop",
+    "scripts": {
+        "security-audit": "pnpm audit --registry=https://registry.npmjs.org --prod"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ITV/fe-core.git"
+    },
+    "author": "ITV",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/ITV/fe-core/issues"
+    },
+    "homepage": "https://github.com/ITV/fe-core#readme",
+    "dependencies": {
+        "aws-sdk": "2.755.0"
+    }
+}

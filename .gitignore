@@ -1,0 +1,15 @@
+# dependencies
+node_modules
+
+# IDEs
+.vscode
+*.iml
+.idea
+
+.DS_Store
+npm-debug.log*
+
+# project specific
+tmp
+tests/coverage
+report.*
